@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" text="text/css" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lily+Script+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0270abbd8e.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Hygge House</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#C9A281">
+  <a class="navbar-brand" href="#">HYGGE HOUSE</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">WHAT WE DO <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">WHO WE ARE</a>
+      </li>
+      <li class="nav-item">
+            <a class="nav-link" href="#">UPFRONT PRICING</a>
+      </li>
+      <li class="nav-item">
+            <a class="nav-link" href="#">OUR PROCESS</a>
+      </li>
+      <li class="nav-item">
+            <a class="nav-link" href="#">TIPS AND IDEAS</a>
+      </li>
+      <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT US</a>
+      </li>
+     
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+    <!-- header? -->
+    <header>
+        <img src="./luca-bravo-lWAOc0UuJ-A-unsplash.jpg">
+        <section class='hero-header-text'>
+            <h1 class="bg-text-1">hygge house</h1>
+            <h2 class="bg-text">A North Carolina Video Production House</h2>
+            <button id="startBtn" class="btn btn-lg btn-warning">Let's Chat</button>
+        </section>
+    </header>
+
+    <!-- Pin section -->
+    <!-- <div class="bg-text-1">
+        <p class="intro-text-1">We create and deliver video concepts <br> that have purpose and value.</p>
+    </div>
+    <div class="bg-text">
+        <p class="p-text tracking-in-expand">Ready to get started?</p>
+        <button id="startBtn" class="btn btn-lg btn-warning">Let's Chat</button>
+    </div>
+
+    </div> -->
+
+    <!-- <div class="container-fluid">
+        <div class="row">
+            <p class="projects">Our projects</p>
+        </div>
+    </div> -->
+
+
+    <div class="container">
+        <!-- row one -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="intro">What's Hygge House?</div>
+            </div>
+        </div>
+
+        <!-- row two -->
+        <div class="row d-flex justify-content-between">
+            <div class="col-md-3 card">
+                <i class="fas fa-dollar-sign fa-3x iconStyle"></i>
+                <div class="container">
+                    <h4><b>Transparent</b></h4>
+                    <p>With our upfront and transparent approach to pricing, direction, and process, we can promise we are not going to be like that random friend of a friend that shows up and makes everythig awkward.</p>
+                </div>
+            </div>
+            <div class="col-md-3 card">
+                <i class="fas fa-user-tie fa-3x iconStyle"></i>
+                <div class="container">
+                    <h4><b>Expertise</b></h4>
+                    <p>With us you will experience a high level of expertise, flexibility, creativity and a positive attitude.</p>
+
+                </div>
+            </div>
+            <div class="col-md-3 card">
+                <i class="fas fa-map-marked fa-3x iconStyle"></i>
+                <div class="container">
+                    <h4><b>Humor</b></h4>
+                    <p>Humor is an essential way that we communicate. We are friendly, smart, but never too serious. We are creative, not corporate. </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-wrapper">
+        <div class="row d-flex justify-content-center">
+
+            <div class="col-md-6">
+                <!-- left side map -->
+                <div class="container-left">
+                    <div>
+                       <p class="left-intro">Hygge Inspiration</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="container-right">
+                    <!-- right side results -->
+                    <p class="right-intro">Meet the Founders</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- card/inner div -->
+    <div class="container-fluid searchBox secondary-bg-color">
+        <div>
+            <p class="intro">Let's become friends</p>
+            <p class="sub-heading">Don't be shy, I promise we're friendly.<br> We hope that you will feel hygge working with us, doing what we truly love. </p>
+        </div>
+
+        <!-- text input -->
+        <form id="target">
+            <div>
+                <input class="inputHolder" id="cityInput" type="text" placeholder="First name"></input><br>
+                <input class="inputHolder" id="stateInput" type="text" placeholder="Last name"></input><br>
+                <input class="inputHolder" id="stateInput" type="text" placeholder="Email"></input>
+                <input type="submit" style="display: none" />
+            </div>
+
+            <button class="btn btn-lg btn-secondary" id="searchBtn" type="submit">Submit</button>
+        </form>
+        <!-- submit button -->
+        
+    </div>
+
+    <div class="third-bg-c">
+        <p></p>
+    </div>
+
+   
+
+    <!-- footer -->
+    <footer></footer>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="./app.js"></script>
+
+       
+</body>
+
+</html>
