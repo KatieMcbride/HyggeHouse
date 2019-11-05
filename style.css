@@ -17,7 +17,7 @@ html {
   box-sizing: border-box;
 }
 .bg-color {
-  background-color: #7edcff;
+  background-color: black;
   height: 100%;
   /* Center and scale the image nicely */
   background-position: absolute;
@@ -66,7 +66,7 @@ header {
     width: 100vw; */
     /* background:rgb(136, 29, 29); */
     overflow: hidden;
-    background-color: rgb(136, 29, 29);
+    background-color: black;
 }
 
 .cardOne {
@@ -98,13 +98,13 @@ header {
 }
 
 .headerimg {
-  /* height: 100%;
-  width: 100%; */
-  opacity: 0.3;
-  /* background-position: relative; */
+   height: 100%;
+  width: 100%; 
+  opacity: 0.8; 
+  background-position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} 
 
 .navcolor{
   color:rgb(136, 29, 29);
@@ -126,7 +126,7 @@ img {
   color: rgb(255, 196, 0);
   font-weight: bold;
   position: absolute;
-  top: 70%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -144,14 +144,14 @@ img {
   color: rgb(255, 196, 0);
   font-weight: bold;
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
   width: 70%;
   padding: 20px;
   text-align: center;
-  font-size: 3.5em;
+  font-size: 5em;
   font-family: 'Lily Script One', cursive;
 }
 
@@ -290,6 +290,15 @@ img {
 
 }
 
+.intro-side{
+  font-size: 60px;
+  color: #0B3c5d;
+  text-align: left;
+  font-style: italic bold;
+  font-family: 'Lily Script One', cursive;
+  margin-top: 40px;
+}
+
 .logo{
   color: #cd5554;
   font-family: 'Lato', sans-serif;
@@ -363,6 +372,13 @@ img {
   text-align: center;
   font-size: 30px;
   padding:30px;
+}
+
+.workimg{
+  height:100px;
+  width: 300px;
+  right: 30%;
+  margin-top: 30px;
 }
 
 /* Portrait iPhone X */
